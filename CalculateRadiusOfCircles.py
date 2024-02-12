@@ -78,7 +78,7 @@ for filename in os.listdir(labels_dir):
   num_objects = len(objects)
 
   # چاپ اطلاعات
-  print(f"Image {filename}:")
+  #print(f"Image {filename}:")
   print(f"Number Of Circles: {num_objects}")
 
   # چاپ شعاع هر شیء
