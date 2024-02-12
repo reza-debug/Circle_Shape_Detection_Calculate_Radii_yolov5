@@ -1,11 +1,11 @@
 import os
 
 # دریافت مسیر عکس از کاربر
-image_path = input("مسیر عکس را وارد کنید: ")
+image_path = input("Insert Path Of Your Image Here ")
 
 # بررسی وجود فایل
 if not os.path.exists(image_path):
-  print("فایل عکس وجود ندارد!")
+  print("There is not Image here!!")
   exit()
 
 # اجرای دستور detect.py
