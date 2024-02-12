@@ -4,9 +4,11 @@ import math
 
 
 # مسیر پوشه labels
-print("-" * 20)
+print("===" * 20)
 print("For Show Radius of circles Objects Go To 'runs/detect/exp/labels' And Copy path Of labels's Folder ")
+print("===" * 20)
 labels_dir = input("Insert Here Copy Path Of Labels's Folder: ")
+print("===" * 20)
 
 # تابع برای خواندن اطلاعات از فایل txt
 def read_file(file_path):
